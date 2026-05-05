@@ -22,4 +22,72 @@ max-width: 90%;
 padding: 20px}
 h1{font-size: 35px;
 margin: 0%;
-color: var(--bg)
+color: var(--bg);
+letter-spacing: 1px;
+}
+.conrtrols{
+    font-size: 13px;
+    opacity: 0.93;
+}
+.game-card{
+    background: linear-gradient(90deg,rgba(47, 125, 16, 1) 0%, rgba(97, 35, 62, 1) 56%, rgba(237, 221, 83, 1) 100%);
+    border: 1px solid crimson;
+    border-radius: 14px;
+    padding: 12px;
+    box-shadow: 0 8px 30px rgba(47, 125, 16, 1);
+}
+canvas{
+    display: block;
+    margin: 0 auto;
+    background: (90deg,rgba(91, 232, 35, 1) 0%, rgba(169, 201, 50, 1) 33%, rgba(140, 29, 79, 1) 22%, rgba(237, 221, 83, 1) 100%); 
+    border: 5px solid rgb(16, 10, 184);
+    box-shadow: inset 0 0 0 2px #b2ff7b;
+    image-rendering: pixelated;
+    border-radius: 13px;
+}
+.hud{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.score{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #44FF00;
+    padding: 8px 12px;
+    border-radius: 5;
+}
+.small{
+    font-size: 15px;
+    color: #0bd7b5;
+}
+footer{
+    margin-top: 9px;
+    text-align: center;
+    color: #4E7840;
+}
+.scanlines{
+    position: absolute;
+pointer-events: none;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+background-image: -moz-linear-gradient(90deg,rgba(91, 232, 35, 1) 6%, rgba(39, 161, 65, 1) 35%, rgba(176, 203, 54, 1) 50%, rgba(169, 201, 50, 1) 57%, rgba(237, 221, 83, 1) 100%);
+opacity: 0.08;
+}
+.canvas-wrap{position: relative;
+}
+.settings{
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}
+.btn{
+    background: #b2ff7b;
+    border: 3px solid rgb(206, 21, 21);
+    padding: 7px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
